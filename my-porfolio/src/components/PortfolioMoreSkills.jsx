@@ -118,21 +118,21 @@ const PortfolioMoreSkills = () => {
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100 rounded-3"
-                                        src="/public/img/pokemon/pkm-1.png"
+                                        src="/img/pokemon/pkm-1.png"
                                         alt="Screenshot fan game 1"
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100 rounded-3"
-                                        src="/public/img/pokemon/pkm-2.png"
+                                        src="/img/pokemon/pkm-2.png"
                                         alt="Screenshot fan game 2"
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100 rounded-3"
-                                        src="/public/img/pokemon/pkm-3.png"
+                                        src="/img/pokemon/pkm-3.png"
                                         alt="Screenshot fan game 3"
                                     />
                                 </Carousel.Item>
