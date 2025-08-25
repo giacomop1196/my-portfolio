@@ -18,7 +18,7 @@ const PortfolioTraining = () => {
     return (
         <section className="bg-light py-5">
             <Container>
-                <h2 className="text-center mb-5">Formazione</h2>
+                <h2 className="text-center my-5">Formazione</h2>
                 <Row>
                     {/* Full-Stack Developer */}
                     <Col md={6} className="mb-4">
@@ -323,7 +323,6 @@ const PortfolioTraining = () => {
                         )}
                     </Button>
                 </div>
-
 
                 {/* Il nuovo componente che appare al click */}
                 <Collapse in={showMoreCertifications}>

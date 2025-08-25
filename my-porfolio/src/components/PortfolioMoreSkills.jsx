@@ -31,7 +31,7 @@ const PortfolioMoreSkills = () => {
                             <h5>Reality Capture</h5>
                         </Col>
                     </Row>
-                    <h2 className="text-center mb-5">Percorso di studi</h2>
+                    <h2 className="text-center mt-5 mb-3">Percorso di studi</h2>
                     <Row>
                         {/* Laurea */}
                         <Col md={6} className="mb-4">
