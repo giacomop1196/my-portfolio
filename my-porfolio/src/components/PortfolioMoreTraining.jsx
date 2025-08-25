@@ -14,7 +14,7 @@ const PortfolioMoreTraining = () => {
                                     <Card.Img
                                         className="me-3"
                                         variant="top"
-                                        src="/public/img/Udemy-Logo.png"
+                                        src="/img/Udemy-Logo.png"
                                         style={{ width: '60px', height: '60px', objectFit: 'contain' }}
                                         alt="Logo Udemy"
                                     />
@@ -35,7 +35,7 @@ const PortfolioMoreTraining = () => {
                                     <Card.Img
                                         className="me-3 rounded-4"
                                         variant="top"
-                                        src="/public/img/logo-lifelearning.png"
+                                        src="/img/logo-lifelearning.png"
                                         style={{ width: '60px', height: '60px', objectFit: 'contain' }}
                                         alt="Logo Life Learning"
                                     />
@@ -56,7 +56,7 @@ const PortfolioMoreTraining = () => {
                                     <Card.Img
                                         className="me-3 rounded-4"
                                         variant="top"
-                                        src="/public/img/logo-lifelearning.png"
+                                        src="/img/logo-lifelearning.png"
                                         style={{ width: '60px', height: '60px', objectFit: 'contain' }}
                                         alt="Logo Life Learning"
                                     />
@@ -77,7 +77,7 @@ const PortfolioMoreTraining = () => {
                                     <Card.Img
                                         className="me-3 rounded-4"
                                         variant="top"
-                                        src="/public/img/logo-lifelearning.png"
+                                        src="/img/logo-lifelearning.png"
                                         style={{ width: '60px', height: '60px', objectFit: 'contain' }}
                                         alt="Logo Life Learning"
                                     />
@@ -99,7 +99,7 @@ const PortfolioMoreTraining = () => {
                                     <Card.Img
                                         className="me-3 rounded-4"
                                         variant="top"
-                                        src="/public/img/logo-eipass.png"
+                                        src="/img/logo-eipass.png"
                                         style={{ width: '60px', height: '60px', objectFit: 'contain' }}
                                         alt="Logo Certificazione 3"
                                     />
@@ -121,7 +121,7 @@ const PortfolioMoreTraining = () => {
                                     <Card.Img
                                         className="me-3 rounded-4"
                                         variant="top"
-                                        src="/public/img/logo-google.png"
+                                        src="/img/logo-google.png"
                                         style={{ width: '60px', height: '60px', objectFit: 'contain' }}
                                         alt="Logo Certificazione 3"
                                     />

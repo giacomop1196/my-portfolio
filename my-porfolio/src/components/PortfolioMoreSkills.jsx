@@ -7,27 +7,27 @@ const PortfolioMoreSkills = () => {
                 <Container>
                     <Row className="text-center">
                         <Col xs={6} md={3} className="mb-4">
-                            <Image src="/public/img/skills-logo/Adobe_Photoshop_CC_icon.svg.png" className="mb-2" alt="Photoshop icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
+                            <Image src="/img/skills-logo/Adobe_Photoshop_CC_icon.svg.png" className="mb-2" alt="Photoshop icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
                             <h5>Adobe Photoshop</h5>
                         </Col>
                         <Col xs={6} md={3} className="mb-4">
-                            <Image src="/public/img/skills-logo/Adobe_Premiere_Pro_CC_icon.svg.png" className="mb-2" alt="Premiere Pro icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
+                            <Image src="/img/skills-logo/Adobe_Premiere_Pro_CC_icon.svg.png" className="mb-2" alt="Premiere Pro icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
                             <h5>Adobe Premiere</h5>
                         </Col>
                         <Col xs={6} md={3} className="mb-4">
-                            <Image src="/public/img/skills-logo/Adobe_After_Effects_CC_icon.svg.png" className='mb-2' alt="After Effects icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
+                            <Image src="/img/skills-logo/Adobe_After_Effects_CC_icon.svg.png" className='mb-2' alt="After Effects icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
                             <h5>Adobe AfterEffects</h5>
                         </Col>
                         <Col xs={6} md={3} className="mb-4">
-                            <Image src="/public/img/skills-logo/Autocad-logo.png" className="mb-2" alt="Autocad icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
+                            <Image src="/img/skills-logo/Autocad-logo.png" className="mb-2" alt="Autocad icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
                             <h5>Autocad</h5>
                         </Col>
                         <Col xs={6} md={3} className="mb-4">
-                            <Image src="/public/img/skills-logo/rpg-maker-xp-logo.png" className="mb-2" alt="Autocad icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
+                            <Image src="/img/skills-logo/rpg-maker-xp-logo.png" className="mb-2" alt="Autocad icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
                             <h5>RPG Maker XP</h5>
                         </Col>
                         <Col xs={6} md={3} className="mb-4">
-                            <Image src="/public/img/skills-logo/reality-capture-logo.png" className="mb-2 rounded-3" alt="Autocad icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
+                            <Image src="/img/skills-logo/reality-capture-logo.png" className="mb-2 rounded-3" alt="Autocad icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
                             <h5>Reality Capture</h5>
                         </Col>
                     </Row>
@@ -78,21 +78,21 @@ const PortfolioMoreSkills = () => {
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100 rounded-3"
-                                        src="/public/img/drone/drone-1.jpg"
+                                        src="/img/drone/drone-1.jpg"
                                         alt="Drone scatto 1"
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100 rounded-3"
-                                        src="/public/img/drone/drone-2.jpg"
+                                        src="/img/drone/drone-2.jpg"
                                         alt="Drone scatto 2"
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100 rounded-3"
-                                        src="/public/img/drone/drone-3.jpg"
+                                        src="/img/drone/drone-3.jpg"
                                         alt="Drone scatto 3"
                                     />
                                 </Carousel.Item>

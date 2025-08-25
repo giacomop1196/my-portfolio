@@ -28,7 +28,7 @@ const PortfolioTraining = () => {
                                     <Card.Img
                                         className="me-3"
                                         variant="top"
-                                        src="/public/img/logo-epicode.png"
+                                        src="/img/logo-epicode.png"
                                         style={{ width: '50px', height: '50px', objectFit: 'contain' }}
                                         alt="Logo Epicode"
                                     />
@@ -82,7 +82,7 @@ const PortfolioTraining = () => {
                                     <Card.Img
                                         className="me-3"
                                         variant="top"
-                                        src="/public/img/logo-masterz.png"
+                                        src="/img/logo-masterz.png"
                                         style={{ width: '50px', height: '50px', objectFit: 'contain' }}
                                         alt="Logo MasterZ"
                                     />
@@ -143,7 +143,7 @@ const PortfolioTraining = () => {
                                     <Card.Img
                                         className="me-3"
                                         variant="top"
-                                        src="/public/img/logo-modis.png"
+                                        src="/img/logo-modis.png"
                                         style={{ width: '50px', height: '50px', objectFit: 'contain' }}
                                         alt="Logo Modis"
                                     />
@@ -199,7 +199,7 @@ const PortfolioTraining = () => {
                                     <Card.Img
                                         className="me-3 rounded-4"
                                         variant="top"
-                                        src="/public/img/logo-dotacademy.jpeg"
+                                        src="/img/logo-dotacademy.jpeg"
                                         style={{ width: '50px', height: '50px', objectFit: 'contain' }}
                                         alt="Logo dot Academy"
                                     />
@@ -256,7 +256,7 @@ const PortfolioTraining = () => {
                                     <Card.Img
                                         className="me-3 rounded-4"
                                         variant="top"
-                                        src="/public/img/logo-generationitaly.png"
+                                        src="/img/logo-generationitaly.png"
                                         style={{ width: '50px', height: '50px', objectFit: 'contain' }}
                                         alt="Logo Generation Italy"
                                     />
