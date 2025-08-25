@@ -22,7 +22,7 @@ const PortfolioTraining = () => {
                 <Row>
                     {/* Full-Stack Developer */}
                     <Col md={6} className="mb-4">
-                        <Card className="card-custom rounded-4">
+                        <Card className="card-custom rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-2">
                                     <Card.Img
@@ -76,7 +76,7 @@ const PortfolioTraining = () => {
 
                     {/* Blockchain and Digital assets */}
                     <Col md={6} className="mb-4">
-                        <Card className="card-custom rounded-4">
+                        <Card className="card-custom rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-2">
                                     <Card.Img
@@ -137,7 +137,7 @@ const PortfolioTraining = () => {
 
                     {/* Corso Sviluppatore Java Modis */}
                     <Col md={6} className="mb-4">
-                        <Card className="card-custom rounded-4">
+                        <Card className="card-custom rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-2">
                                     <Card.Img
@@ -193,11 +193,11 @@ const PortfolioTraining = () => {
 
                     {/* Corso Java Developer dot Academy */}
                     <Col md={6} className="mb-4">
-                        <Card className="card-custom rounded-4">
+                        <Card className="card-custom rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-2">
                                     <Card.Img
-                                        className="me-3 rounded-4"
+                                        className="me-3 rounded-5"
                                         variant="top"
                                         src="/img/logo-dotacademy.jpeg"
                                         style={{ width: '50px', height: '50px', objectFit: 'contain' }}
@@ -250,7 +250,7 @@ const PortfolioTraining = () => {
 
                     {/* Corso Java Developer Generation Italy */}
                     <Col md={6} className="mb-4">
-                        <Card className="card-custom rounded-4">
+                        <Card className="card-custom rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-2">
                                     <Card.Img
@@ -310,7 +310,7 @@ const PortfolioTraining = () => {
                         onClick={() => setShowMoreCertifications(!showMoreCertifications)}
                         aria-controls="more-certifications-content"
                         aria-expanded={showMoreCertifications}
-                        className="modern-toggle-btn"
+                        className="modern-toggle-btn rounded-5"
                     >
                         {showMoreCertifications ? (
                             <>

@@ -7,11 +7,16 @@ const PortfolioHeader = () => {
     return (
         <header className="hero-section">
             <Container className="text-center text-white">
-                <h1 className="hero-title">Benvenuto nel mio Portfolio</h1>
-                <p className="hero-subtitle">
+
+                {location.pathname === '/' ? (<h1 className="hero-title">Benvenuto nel mio Portfolio</h1>) : 
+                (<h1 className="hero-title">Altre Competenze</h1>) }
+                
+                {location.pathname === '/' ? (<p className="hero-subtitle">
                     Mi chiamo <strong>Giacomo Pillitteri</strong>, sono uno sviluppatore web & software 
                     con esperienza in <strong>Java, PHP Laravel, Vue, React</strong> e molte altre tecnologie.
-                </p>
+                </p>) :
+                (<> </>)}
+                
 
                 <div className="social-links mt-4">
                     <a href="https://github.com/giacomop1196" target="_blank" aria-label="GitHub"><i className="bi-github"></i></a>
@@ -22,16 +27,11 @@ const PortfolioHeader = () => {
                     <a href="mailto:giacomo.pillitteri65@gmail.com" aria-label="Email"><i className="bi-envelope-fill"></i></a>
                 </div>
 
-                <Button 
-                    as={Link} 
-                    to={location.pathname === '/skills' ? "/" : "/skills"} 
-                    className="modern-btn mt-5"
-                >
-                    {location.pathname === '/skills' ? (
-                        <> <i className="bi bi-house-door-fill"></i> Torna alla Home </>
-                    ) : (
-                        <> <i className="bi bi-lightning-charge-fill"></i> Altre competenze </>
-                    )}
+                <Button as={Link} to={location.pathname === '/skills' ? "/" : "/skills"} 
+                    className="modern-btn mt-5">
+                    {location.pathname === '/skills' ? (<> <i className="bi bi-house-door-fill"></i> Torna alla Home </>)
+                    :
+                    (<> <i className="bi bi-lightning-charge-fill"></i> Altre competenze </>)}
                 </Button>
             </Container>
         </header>

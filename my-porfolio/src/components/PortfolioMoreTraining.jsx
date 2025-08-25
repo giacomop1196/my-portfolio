@@ -2,13 +2,13 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const PortfolioMoreTraining = () => {
     return (
-        <section className="bg-white py-5 my-3 rounded-4 shadow-sm">
+        <section className="bg-white py-5 my-3 rounded-4 shadow-lg">
             <Container>
                 <h3 className="text-center mb-4">Altre Certificazioni Informatiche</h3>
                 <Row className="justify-content-center">
                     {/* Android O: crea App con Java e Kotlin */}
                     <Col md={6} lg={4} className="mb-4">
-                        <Card className="shadow-sm h-100 rounded-4">
+                        <Card className="shadow-sm h-100 rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-3">
                                     <Card.Img
@@ -29,7 +29,7 @@ const PortfolioMoreTraining = () => {
 
                     {/* AGILE Project Management */}
                     <Col md={6} lg={4} className="mb-4">
-                        <Card className="shadow-sm h-100 rounded-4">
+                        <Card className="shadow-sm h-100 rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-3">
                                     <Card.Img
@@ -50,7 +50,7 @@ const PortfolioMoreTraining = () => {
 
                     {/* Gestire un Sito Fatto con WordPress */}
                     <Col md={6} lg={4} className="mb-4">
-                        <Card className="shadow-sm h-100 rounded-4">
+                        <Card className="shadow-sm h-100 rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-3">
                                     <Card.Img
@@ -71,7 +71,7 @@ const PortfolioMoreTraining = () => {
 
                     {/* Microsoft Access */}
                     <Col md={6} lg={4} className="mb-4">
-                        <Card className="shadow-sm h-100 rounded-4">
+                        <Card className="shadow-sm h-100 rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-3">
                                     <Card.Img
@@ -93,7 +93,7 @@ const PortfolioMoreTraining = () => {
 
                     {/* Patente Europea: European Informatic Passport */}
                     <Col md={6} lg={4} className="mb-4">
-                        <Card className="shadow-sm h-100 rounded-4">
+                        <Card className="shadow-sm h-100 rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-3">
                                     <Card.Img
@@ -115,7 +115,7 @@ const PortfolioMoreTraining = () => {
 
                     {/* Eccellenze in Digitale */}
                     <Col md={6} lg={4} className="mb-4">
-                        <Card className="shadow-sm h-100 rounded-4">
+                        <Card className="shadow-sm h-100 rounded-5">
                             <Card.Body>
                                 <div className="d-flex align-items-center mb-3">
                                     <Card.Img

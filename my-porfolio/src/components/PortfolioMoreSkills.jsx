@@ -35,7 +35,7 @@ const PortfolioMoreSkills = () => {
                     <Row>
                         {/* Laurea */}
                         <Col md={6} className="mb-4">
-                            <Card className="card-custom rounded-4">
+                            <Card className="card-custom rounded-5">
                                 <Card.Body>
                                     <div className="d-flex align-items-center mb-2">
                                         <i className="bi-mortarboard-fill fs-2 me-3 text-secondary"></i>
@@ -50,7 +50,7 @@ const PortfolioMoreSkills = () => {
 
                         {/* Diploma */}
                         <Col md={6} className="mb-4">
-                            <Card className="card-custom rounded-4">
+                            <Card className="card-custom rounded-5">
                                 <Card.Body>
                                     <div className="d-flex align-items-center mb-2">
                                         <i className="bi-rulers fs-2 me-3 text-secondary"></i>
@@ -65,7 +65,7 @@ const PortfolioMoreSkills = () => {
                     </Row>
 
                     {/* Nuova sezione: Drone & Fotogrammetria */}
-                    <h2 className="text-center my-5">Drone & Fotogrammetria</h2>
+                    <h2 className="text-center mt-5 mb-3"><i class="bi bi-camera2 mx-2"></i>Drone & Fotogrammetria</h2>
                     <Row className="align-items-center justify-content-center">
                         <Col md={6} className="mb-4">
                             <p className="text-center text-md-start">
@@ -102,7 +102,7 @@ const PortfolioMoreSkills = () => {
 
 
                     {/* Nuova sezione: Fan Game Pokémon */}
-                    <h2 className="text-center my-5">Progetto Fan Game Pokémon</h2>
+                    <h2 className="text-center mt-5 mb-3"><i class="bi bi-controller mx-2"></i>Progetto Fan Game Pokémon</h2>
                     <Row className="align-items-center justify-content-center">
                         <Col md={6} className="mb-4">
                             <p className="text-center text-md-start">
