@@ -1,11 +1,11 @@
-import { Container, Row, Col, Card, Image, Carousel } from 'react-bootstrap';
+import { Container, Row, Col, Card, Image, Carousel, Button } from 'react-bootstrap';
 
 const PortfolioMoreSkills = () => {
     return (
         <>
             <section className="py-5">
                 <Container>
-                    <Row className="text-center">
+                    <Row className="text-center justify-content-center">
                         <Col xs={6} md={3} className="mb-4">
                             <Image src="/img/skills-logo/Adobe_Photoshop_CC_icon.svg.png" className="mb-2" alt="Photoshop icon" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
                             <h5>Adobe Photoshop</h5>
@@ -64,7 +64,7 @@ const PortfolioMoreSkills = () => {
                         </Col>
                     </Row>
 
-                    {/* Nuova sezione: Drone & Fotogrammetria */}
+                    {/* Drone & Fotogrammetria */}
                     <h2 className="text-center mt-5 mb-3"><i class="bi bi-camera2 mx-2"></i>Drone & Fotogrammetria</h2>
                     <Row className="align-items-center justify-content-center">
                         <Col md={6} className="mb-4">
@@ -101,7 +101,7 @@ const PortfolioMoreSkills = () => {
                     </Row>
 
 
-                    {/* Nuova sezione: Fan Game Pokémon */}
+                    {/* Fan Game Pokémon */}
                     <h2 className="text-center mt-5 mb-3"><i class="bi bi-controller mx-2"></i>Progetto Fan Game Pokémon</h2>
                     <Row className="align-items-center justify-content-center">
                         <Col md={6} className="mb-4">
@@ -140,7 +140,54 @@ const PortfolioMoreSkills = () => {
                         </Col>
                     </Row>
 
+                    {/* Sezione Competenze Extra */}
+                    <h2 className="text-center mt-5 mb-3">
+                        <i className="bi bi-stars mx-2"></i>Competenze Extra
+                    </h2>
+                    <Row className="align-items-center justify-content-center">
+                        <Col md={10}>
+                            <p className="text-center text-md-start">
+                                Oltre alle mie esperienze nello sviluppo software e nella creazione di progetti digitali,
+                                ho acquisito competenze in diversi ambiti:
+                            </p>
+                            <ul className="text-start">
+                                <li>
+                                    <strong>Adobe Photoshop, Premiere Pro e After Effects</strong> – utilizzo creativo per
+                                    grafica digitale, montaggio video e animazioni.
+                                </li>
+                                <li>
+                                    <strong>Autocad</strong> – appreso durante il percorso di studi da geometra, utile
+                                    per progettazione e disegno tecnico.
+                                </li>
+                                <li>
+                                    <strong>Riparazione PC e Smartphone</strong> – sia a livello <em>software</em>
+                                    (formattazione, reinstallazione, configurazioni) che <em>hardware</em>
+                                    (sostituzione componenti, diagnosi e manutenzione).
+                                </li>
+                            </ul>
+                        </Col>
+                    </Row>
 
+                    {/* Pulsante Github */}
+                    <Row className="align-items-center justify-content-center mt-5">
+                        <Col md={8} className="text-center">
+                            <p>
+                                Se vuoi scoprire altri miei lavori e progetti personali, puoi visitarli sul mio
+                                profilo <strong>GitHub</strong>.
+                                Troverai codice sorgente, esperimenti e repository che raccontano la mia
+                                crescita come sviluppatore.
+                            </p>
+                            <Button
+                                variant="dark"
+                                href="https://github.com/giacomop1196"
+                                target="_blank"
+                                className="rounded-pill px-4"
+                            >
+                                <i className="bi bi-github me-2"></i>
+                                Vai al mio GitHub
+                            </Button>
+                        </Col>
+                    </Row>
                 </Container>
             </section>
         </>

@@ -19,7 +19,7 @@ const PortfolioTraining = () => {
         <section className="bg-light py-5">
             <Container>
                 <h2 className="text-center my-5">Formazione</h2>
-                <Row>
+                <Row className='justify-content-center'>
                     {/* Full-Stack Developer */}
                     <Col md={6} className="mb-4">
                         <Card className="card-custom rounded-5">
