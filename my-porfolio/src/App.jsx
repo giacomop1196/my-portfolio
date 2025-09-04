@@ -7,6 +7,7 @@ import PortfolioHome from './components/PortfolioHome';
 import PortfolioHeader from './components/PortfolioHeader';
 import PortfolioFooter from './components/PortfolioFooter';
 import PortfolioMoreSkills from './components/PortfolioMoreSkills';
+import NotFound from './components/NotFound';
 
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
       <BrowserRouter>
         <PortfolioHeader />
         <Routes>
-           <Route path='/' element={<PortfolioHome />} />
-           <Route path='/skills' element={<PortfolioMoreSkills />} />
+          <Route path='/' element={<PortfolioHome />} />
+          <Route path='/skills' element={<PortfolioMoreSkills />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
         <PortfolioFooter />
       </BrowserRouter>

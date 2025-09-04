@@ -8,8 +8,8 @@ const PortfolioHeader = () => {
         <header className="hero-section">
             <Container className="text-center text-white">
 
-                {location.pathname === '/' ? (<h1 className="hero-title">Benvenuto nel mio Portfolio</h1>) : 
-                (<h1 className="hero-title">Altre Competenze</h1>) }
+                {location.pathname === '/skills' ? (<h1 className="hero-title">Altre Competenze</h1>) : 
+                (<h1 className="hero-title">Benvenuto nel mio Portfolio</h1>) }
                 
                 {location.pathname === '/' ? (<p className="hero-subtitle">
                     Mi chiamo <strong>Giacomo Pillitteri</strong>, sono uno sviluppatore web & software 
@@ -27,11 +27,11 @@ const PortfolioHeader = () => {
                     <a href="mailto:giacomo.pillitteri65@gmail.com" aria-label="Email"><i className="bi-envelope-fill"></i></a>
                 </div>
 
-                <Button as={Link} to={location.pathname === '/skills' ? "/" : "/skills"} 
+                <Button as={Link} to={location.pathname === '/' ? "/skills" : "/"} 
                     className="modern-btn mt-5">
-                    {location.pathname === '/skills' ? (<> <i className="bi bi-house-door-fill"></i> Torna alla Home </>)
+                    {location.pathname === '/' ? (<> <i className="bi bi-lightning-charge-fill"></i> Altre competenze </>)
                     :
-                    (<> <i className="bi bi-lightning-charge-fill"></i> Altre competenze </>)}
+                    (<> <i className="bi bi-house-door-fill "></i> Torna alla Home </>)}
                 </Button>
             </Container>
         </header>
