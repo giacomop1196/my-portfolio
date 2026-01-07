@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, Image, Carousel, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Image, Carousel, Button, Badge } from 'react-bootstrap';
 
 const PortfolioMoreSkills = () => {
     return (
@@ -134,6 +134,78 @@ const PortfolioMoreSkills = () => {
                                         className="d-block w-100 rounded-3"
                                         src="/img/pokemon/pkm-3.png"
                                         alt="Screenshot fan game 3"
+                                    />
+                                </Carousel.Item>
+                            </Carousel>
+                        </Col>
+                    </Row>
+
+                    {/* MangiatApp - Event Organizer */}
+                    <h2 className="text-center mt-5 mb-3 d-flex align-items-center justify-content-center">
+                        <Image
+                            src="/img/mangiatapp/logo.png"
+                            alt="MangiatApp Logo"
+                            style={{ height: '50px', marginRight: '15px' }}
+                            fluid
+                        />
+                        MangiatApp
+                    </h2>
+                    <Row className="align-items-center justify-content-center">
+                        <Col md={6} className="mb-4">
+                            <div className="p-3 border-start border-primary border-4 bg-light rounded-4">
+                                <p className="text-center text-md-start">
+                                    <strong>MangiatApp</strong> è una Single Page Application (SPA) progettata per semplificare l'organizzazione di eventi tra amici.
+                                    Sviluppata con <strong>React</strong> e <strong>Node.js</strong>, l'app gestisce l'intero ciclo di vita di un evento:
+                                    dalla pianificazione alla gestione delle spese.
+                                </p>
+                                <ul className="small text-secondary">
+                                    <li><strong>Social & Profile:</strong> Sistema di amicizie tramite QR Code, gestione profilo con link di pagamento (PayPal).</li>
+                                    <li><strong>Finanza & Spesa:</strong> Gestione automatizzata dei conti, lista della spesa collaborativa e bilancio dei debiti/crediti.</li>
+                                    <li><strong>Gamification:</strong> Minigiochi integrati come Secret Santa, Gioco del Drago, Tabellone Beer Pong e Obbligo o Verità.</li>
+                                    <li><strong>Condivisione:</strong> Generazione di link pubblici per WhatsApp con indicazioni stradali (Google Maps) e info evento.</li>
+                                </ul>
+                                <div className="d-flex gap-2 justify-content-center justify-content-md-start">
+                                    <Badge bg="primary">React</Badge>
+                                    <Badge bg="warning" text="dark">Firebase</Badge>
+                                    <Badge bg="dark">Node.js</Badge>
+                                    <Badge bg="info">Bootstrap</Badge>
+                                </div>
+                                <div className="mt-4 text-center text-md-start">
+                                    <Button
+                                        variant="primary"
+                                        size="lg"
+                                        className="rounded-pill px-4 shadow-sm fw-bold"
+                                        onClick={() => window.open('https://mangiat-app.vercel.app/', '_blank')}
+                                    >
+                                        <i className="bi bi-rocket-takeoff me-2"></i>
+                                        Prova MangiatApp
+                                    </Button>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md={6} className="text-center">
+                            <Carousel fade className="mx-auto carousel-custom shadow-lg rounded-5 overflow-hidden">
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src="/img/mangiatapp/home.png"
+                                        alt="Home"
+                                    />
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src="/img/mangiatapp/profilo.png"
+                                        alt="Profilo"
+                                    />
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src="/img/mangiatapp/games.png"
+                                        alt="Minigiochi"
                                     />
                                 </Carousel.Item>
                             </Carousel>

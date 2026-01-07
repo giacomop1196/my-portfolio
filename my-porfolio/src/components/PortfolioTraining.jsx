@@ -66,6 +66,7 @@ const PortfolioTraining = () => {
                                                 <li>Fetch API: Utilizzo per richieste HTTP asincrone (GET, POST, etc.) e gestione di risposte JSON.</li>
                                                 <li>React: Sviluppo di componenti a classe (con state e metodi del ciclo di vita) e componenti funzionali (con Hooks).</li>
                                                 <li>Hooks: Ampia esperienza con useState e useEffect. Props & State - React Router e React-Bootstrap.</li>
+                                                <li>Java - Spring.</li>
                                             </ul>
                                         </Card.Text>
                                     </div>

@@ -2,7 +2,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const PortfolioMoreTraining = () => {
     return (
-        <section className="bg-white py-5 my-3 rounded-4 shadow-lg">
+        <section className="bg-white py-5 my-3 rounded-5 shadow-lg">
             <Container>
                 <h3 className="text-center mb-4">Altre Certificazioni Informatiche</h3>
                 <Row className="justify-content-center">
