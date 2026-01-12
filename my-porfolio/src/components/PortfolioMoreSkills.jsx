@@ -212,6 +212,39 @@ const PortfolioMoreSkills = () => {
                         </Col>
                     </Row>
 
+                    {/* --- DA AGGIUNGERE DOPO LA ROW DI MANGIATAPP --- */}
+
+                    <h2 className="text-center mt-5 mb-3">
+                        <i className="bi bi-folder2-open mx-2"></i>Altri Progetti
+                    </h2>
+                    <Row>
+                        {/* Sito Web Matteo Ferrara */}
+                        <Col md={4} className="mb-4">
+                            <Card className="h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                                <Card.Body className="d-flex flex-column">
+                                    <Card.Title className="fw-bold">Sito Web Ferrara Matteo</Card.Title>
+                                    <Card.Text className="text-muted small flex-grow-1">
+                                        Sito web sviluppato per un fisioterapista.
+                                    </Card.Text>
+                                    <div className="mt-3">
+                                        <Badge bg="secondary" className="me-1">Bootstrap</Badge>
+                                        <Badge bg="secondary">JavaScript</Badge>
+                                    </div>
+                                    <Button
+                                        variant="outline-primary"
+                                        size="sm"
+                                        className="mt-3 rounded-pill"
+                                        onClick={() => window.open('https://www.matteoferrara.it/', '_blank')}
+                                    >
+                                        Visita Sito
+                                    </Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        {/* Puoi duplicare il Col sopra per ogni nuovo progetto */}
+                    </Row>
+
+                    {/* ----------------------------------------------- */}
                     {/* Sezione Competenze Extra */}
                     <h2 className="text-center mt-5 mb-3">
                         <i className="bi bi-stars mx-2"></i>Competenze Extra
