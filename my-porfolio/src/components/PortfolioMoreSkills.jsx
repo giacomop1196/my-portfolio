@@ -241,7 +241,30 @@ const PortfolioMoreSkills = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        {/* Puoi duplicare il Col sopra per ogni nuovo progetto */}
+                        {/* Sito Web UnitRent */}
+                        <Col md={4} className="mb-4">
+                            <Card className="h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                                <Card.Body className="d-flex flex-column">
+                                    <Card.Title className="fw-bold">UnitRent</Card.Title>
+                                    <Card.Text className="text-muted small flex-grow-1">
+                                        Sito web di nolleggio Auto, Furgoni e Veicoli Commerciali in Sicilia.
+                                    </Card.Text>
+                                    <div className="mt-3">
+                                        <Badge bg="secondary" className="me-1">React Bootstrap</Badge>
+                                        <Badge bg="secondary" className="me-1">React</Badge>
+                                        <Badge bg="secondary">React Router</Badge>
+                                    </div>
+                                    <Button
+                                        variant="outline-primary"
+                                        size="sm"
+                                        className="mt-3 rounded-pill"
+                                        onClick={() => window.open('https://unit-rent.vercel.app/', '_blank')}
+                                    >
+                                        Visita Sito
+                                    </Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
                     </Row>
 
                     {/* ----------------------------------------------- */}
