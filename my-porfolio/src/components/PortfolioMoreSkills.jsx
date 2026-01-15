@@ -29,7 +29,7 @@ const PortfolioMoreSkills = () => {
             descrizione: "Portfolio accademico e professionale realizzato per un ricercatore scientifico.",
             tecnologie: ["React", "React Router", "Bootstrap"],
             link: "https://porfolio-stefano-alfano.vercel.app/",
-            icona: "bi-microscope"
+            icona: "bi-virus"
         }
     ];
     
