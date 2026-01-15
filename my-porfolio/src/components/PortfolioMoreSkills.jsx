@@ -1,6 +1,38 @@
 import { Container, Row, Col, Card, Image, Carousel, Button, Badge } from 'react-bootstrap';
 
 const PortfolioMoreSkills = () => {
+
+    const progetti = [
+        {
+            titolo: "Sito Web Ferrara Matteo",
+            descrizione: "Sito web professionale sviluppato per un fisioterapista, focalizzato sulla prenotazione e presentazione servizi.",
+            tecnologie: ["Bootstrap", "JavaScript"],
+            link: "https://www.matteoferrara.it/",
+            icona: "bi-activity"
+        },
+        {
+            titolo: "UnitRent",
+            descrizione: "Piattaforma di noleggio Auto, Furgoni e Veicoli Commerciali operante nel territorio siciliano.",
+            tecnologie: ["React", "React Router", "Bootstrap"],
+            link: "https://unit-rent.vercel.app/",
+            icona: "bi-car-front"
+        },
+        {
+            titolo: "Portfolio Rosamaria Pillitteri",
+            descrizione: "Sito vetrina realizzato per una criminologa, con focus sulla pubblicazione di articoli e consulenze.",
+            tecnologie: ["React", "React Router", "Bootstrap"],
+            link: "https://portfolio-rosamaria-pillitteri.vercel.app/",
+            icona: "bi-shield-check"
+        },
+        {
+            titolo: "Portfolio Stefano Alfano",
+            descrizione: "Portfolio accademico e professionale realizzato per un ricercatore scientifico.",
+            tecnologie: ["React", "React Router", "Bootstrap"],
+            link: "https://porfolio-stefano-alfano.vercel.app/",
+            icona: "bi-microscope"
+        }
+    ];
+    
     return (
         <>
             <section className="py-5">
@@ -212,59 +244,55 @@ const PortfolioMoreSkills = () => {
                         </Col>
                     </Row>
 
-                    {/* --- DA AGGIUNGERE DOPO LA ROW DI MANGIATAPP --- */}
+                    {/* --- Altri Progetti --- */}
 
-                    <h2 className="text-center mt-5 mb-3">
-                        <i className="bi bi-folder2-open mx-2"></i>Altri Progetti
+                    <h2 className="text-center mb-5 fw-bold">
+                        <i className="bi bi-folder2-open me-3 text-primary"></i>Altri Progetti
                     </h2>
-                    <Row>
-                        {/* Sito Web Matteo Ferrara */}
-                        <Col md={4} className="mb-4">
-                            <Card className="h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                                <Card.Body className="d-flex flex-column">
-                                    <Card.Title className="fw-bold">Sito Web Ferrara Matteo</Card.Title>
-                                    <Card.Text className="text-muted small flex-grow-1">
-                                        Sito web sviluppato per un fisioterapista.
-                                    </Card.Text>
-                                    <div className="mt-3">
-                                        <Badge bg="secondary" className="me-1">Bootstrap</Badge>
-                                        <Badge bg="secondary">JavaScript</Badge>
-                                    </div>
-                                    <Button
-                                        variant="outline-primary"
-                                        size="sm"
-                                        className="mt-3 rounded-pill"
-                                        onClick={() => window.open('https://www.matteoferrara.it/', '_blank')}
-                                    >
-                                        Visita Sito
-                                    </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        {/* Sito Web UnitRent */}
-                        <Col md={4} className="mb-4">
-                            <Card className="h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                                <Card.Body className="d-flex flex-column">
-                                    <Card.Title className="fw-bold">UnitRent</Card.Title>
-                                    <Card.Text className="text-muted small flex-grow-1">
-                                        Sito web di nolleggio Auto, Furgoni e Veicoli Commerciali in Sicilia.
-                                    </Card.Text>
-                                    <div className="mt-3">
-                                        <Badge bg="secondary" className="me-1">React Bootstrap</Badge>
-                                        <Badge bg="secondary" className="me-1">React</Badge>
-                                        <Badge bg="secondary">React Router</Badge>
-                                    </div>
-                                    <Button
-                                        variant="outline-primary"
-                                        size="sm"
-                                        className="mt-3 rounded-pill"
-                                        onClick={() => window.open('https://unit-rent.vercel.app/', '_blank')}
-                                    >
-                                        Visita Sito
-                                    </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
+
+                    <Row className="justify-content-center">
+                        {progetti.map((progetto, index) => (
+                            <Col key={index} md={6} lg={4} className="mb-4">
+                                <Card className="h-100 shadow-sm border-0 rounded-4 overflow-hidden project-card">
+                                    {/* Linea decorativa superiore */}
+                                    <div style={{ height: '4px', background: 'linear-gradient(90deg, #0d6efd, #6610f2)' }}></div>
+
+                                    <Card.Body className="p-4 d-flex flex-column">
+                                        <div className="icon-box">
+                                            <i className={`bi ${progetto.icona}`}></i>
+                                        </div>
+
+                                        <Card.Title className="fw-bold h5 mb-3">
+                                            {progetto.titolo}
+                                        </Card.Title>
+
+                                        <Card.Text className="text-muted small flex-grow-1">
+                                            {progetto.descrizione}
+                                        </Card.Text>
+
+                                        <div className="mt-3 mb-4">
+                                            {progetto.tecnologie.map((tech, idx) => (
+                                                <Badge
+                                                    key={idx}
+                                                    bg="light"
+                                                    className="me-2 text-dark border fw-normal py-2 px-3 rounded-pill"
+                                                >
+                                                    {tech}
+                                                </Badge>
+                                            ))}
+                                        </div>
+
+                                        <Button
+                                            variant="outline-primary"
+                                            className="btn-visit w-100 rounded-pill fw-bold py-2"
+                                            onClick={() => window.open(progetto.link, '_blank')}
+                                        >
+                                            Visita Sito <i className="bi bi-arrow-up-right ms-2"></i>
+                                        </Button>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        ))}
                     </Row>
 
                     {/* ----------------------------------------------- */}
