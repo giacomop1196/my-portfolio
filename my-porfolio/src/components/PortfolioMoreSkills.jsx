@@ -14,7 +14,7 @@ const PortfolioMoreSkills = () => {
             titolo: "UnitRent",
             descrizione: "Piattaforma di noleggio Auto, Furgoni e Veicoli Commerciali operante nel territorio siciliano.",
             tecnologie: ["React", "React Router", "Bootstrap"],
-            link: "https://unit-rent.vercel.app/",
+            link: "https://www.unitrent.it/",
             icona: "bi-car-front"
         },
         {
